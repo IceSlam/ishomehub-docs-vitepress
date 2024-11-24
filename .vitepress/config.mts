@@ -13,8 +13,18 @@ export default defineConfig({
   title: "ISHome Hub",
   description: "Документация для центра умного дома ISHome Hub",
   themeConfig: {
+    aside: true,
+    outline: {
+      label: 'Оглавление',
+    },
     logo: '/images/android-chrome-192x192.png',
     // https://vitepress.dev/reference/default-theme-config
+    darkModeSwitchLabel: 'Оформление',
+    lightModeSwitchTitle: 'Переключить на светлую тему',
+    darkModeSwitchTitle: 'Переключить на темную тему',
+    sidebarMenuLabel: 'Меню',
+    returnToTopLabel: 'На верх',
+    externalLinkIcon: true,
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'Руководство', link: '/guide' }
