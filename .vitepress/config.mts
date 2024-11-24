@@ -8,6 +8,7 @@ export default defineConfig({
       lang: 'ru'
     }
   },
+  base: "/",
   lang: 'ru-RU',
   title: "ISHome Hub",
   description: "Документация для центра умного дома ISHome Hub",
