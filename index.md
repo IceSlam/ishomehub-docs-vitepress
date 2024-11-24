@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "ISHome Hub Docs"
   text: "Документация для центра умного дома ISHome Hub"
-  tagline: My great project tagline
+  tagline: QQ
   actions:
     - theme: brand
       text: Markdown Examples
