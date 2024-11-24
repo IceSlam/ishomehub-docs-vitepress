@@ -3,23 +3,29 @@
 layout: home
 
 hero:
-  name: "ISHome Hub Docs"
-  text: "Документация для центра умного дома ISHome Hub"
-  tagline: QQ
+  name: "ISHome Hub"
+  text: "Документация для центра умного дома"
+  tagline: "Разработано в IceSlam Networks"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Быстрый старт
+      link: /guide/quick-start
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Руководство
+      link: /guide
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Работа без интернета
+    details: LЦентр умного дома работает даже без интернета, даже если ваш роутер сломался - сценарии автоматизации будут работать как и прежде
+  - title: НЕТ САНКЦИЯМ
+    details: Благодаря универсальности и автономности платформы, вашему умному доме не грозит блокировка от производителей устройств умного дома
+  - title: Производительность
+    details: Благодаря мощной платформе на базе 4х-ядерного ARM-процессора с 4Гб оперативной памяти и 64Гб постоянной - центр умного дома имеет достаточный запас мощности для ваших нужд
+  - title: Современные технологии
+    details: Центр умного дома оснащен современным стандартом WiFi 5, встроенным Bluetooth и Zigbee 3.0 чипом, способным подключать практически любое устройство
+  - title: Программное обеспечение
+    details: В качестве программы управления умным домом используется открытое ПО в виде операционной системы Debian 12 и ПО управления умным домом Home Assistant
+  - title: Разработано и собрано в России
+    details: Продукт разработан, настроен и собран в России и имеет гарантию на компоненты
 ---
 
