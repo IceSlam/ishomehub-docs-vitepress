@@ -13,7 +13,48 @@ export default defineConfig({
   title: "ISHome Hub",
   description: "Документация для центра умного дома ISHome Hub",
   themeConfig: {
+    lastUpdated: {
+      text: 'Обновлено',
+      formatOptions: {
+        dateStyle: 'medium',
+        timeStyle: 'short'
+      }
+    },
+    editLink: {
+      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      text: 'Редактировать страницу'
+    },
     aside: true,
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          root: { // используйте ключ `root`, если хотите перевести локаль по умолчанию
+            translations: {
+              button: {
+                buttonText: 'Поиск',
+                buttonAriaLabel: 'Поиск'
+              },
+              modal: {
+                displayDetails: 'Отобразить подробный список',
+                resetButtonTitle: 'Сбросить поиск',
+                backButtonTitle: 'Закрыть поиск',
+                noResultsText: 'Нет результатов по запросу',
+                footer: {
+                  selectText: 'выбрать',
+                  selectKeyAriaLabel: 'выбрать',
+                  navigateText: 'перейти',
+                  navigateUpKeyAriaLabel: 'стрелка вверх',
+                  navigateDownKeyAriaLabel: 'стрелка вниз',
+                  closeText: 'закрыть',
+                  closeKeyAriaLabel: 'esc'
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     outline: {
       label: 'Оглавление',
     },

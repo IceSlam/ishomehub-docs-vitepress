@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "ISHome Hub"
   text: "Документация для центра умного дома"
-  tagline: "Разработано в IceSlam Networks"
+  tagline: "Документация в разработке"
   actions:
     - theme: brand
       text: Быстрый старт

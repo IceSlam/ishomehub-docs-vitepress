@@ -1,5 +1,6 @@
 ---
 description: VitePress
+editLink: true
 ---
 
 # Markdown Extension Examples
