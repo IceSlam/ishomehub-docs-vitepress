@@ -8,8 +8,8 @@ hero:
   tagline: "Документация в разработке"
   actions:
     - theme: brand
-      text: Быстрый старт
-      link: /guide/quick-start
+      text: Первое знакомство
+      link: /quick-start
     - theme: alt
       text: Руководство
       link: /guide

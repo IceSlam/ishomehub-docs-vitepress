@@ -68,7 +68,9 @@ export default defineConfig({
     externalLinkIcon: true,
     nav: [
       { text: 'Главная', link: '/' },
-      { text: 'Руководство', link: '/guide' }
+      { text: 'Первое знакомство', link: '/quick-start' },
+      { text: 'Руководство', link: '/guide' },
+      { text: 'Интеграции', link: '/guide/integrations' }
     ],
     docFooter: {
       prev: 'Предыдущая страница',
@@ -82,10 +84,27 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Примеры',
+        text: 'С чего начать?',
+        link: '/quick-start',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          {
+            text: 'Руководство',
+            collapsed: true,
+            items: [
+              // Ссылка на страницу `/ru/guide/yaha.md`
+              { text: 'Введение',
+                link: '/guide/intro/'
+              },
+              { text: 'Интеграции',
+                items: [
+                  {
+                    text: 'Умный дом Яндекса',
+                    link: '/guide/integrations/yaha'
+                  }
+                ]
+              }
+            ]
+          }
         ]
       }
     ],
