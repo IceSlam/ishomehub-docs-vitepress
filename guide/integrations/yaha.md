@@ -37,9 +37,3 @@
 Компонент позволяет добавить несколько интеграцией с разными типами подключения и набором устройств.
 :::
 
-[//]: # (![]&#40;../assets/images/install/integration-1.png&#41;{ width=750 })
-
-[//]: # (![]&#40;../assets/images/install/integration-2.png&#41;{ width=750 })
-
-[//]: # (![]&#40;../assets/images/install/integration-3.png&#41;{ width=750 })
-
