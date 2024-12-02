@@ -95,6 +95,9 @@ export default defineConfig({
               { text: 'Введение',
                 link: '/guide/intro/'
               },
+              { text: 'Настройка сети WiFi',
+                link: '/guide/wifi/'
+              },
               { text: 'Интеграции',
                 items: [
                   {
