@@ -13,13 +13,7 @@ export default defineConfig({
   title: "ISHome Hub",
   description: "Документация для центра умного дома ISHome Hub",
   themeConfig: {
-    lastUpdated: {
-      text: 'Обновлено',
-      formatOptions: {
-        dateStyle: 'medium',
-        timeStyle: 'short'
-      }
-    },
+    lastUpdated: false,
     editLink: {
       pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
       text: 'Редактировать страницу'
@@ -69,8 +63,6 @@ export default defineConfig({
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'Первое знакомство', link: '/quick-start' },
-      { text: 'Руководство', link: '/guide' },
-      { text: 'Интеграции', link: '/guide/integrations' }
     ],
     docFooter: {
       prev: 'Предыдущая страница',
@@ -84,32 +76,31 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'С чего начать?',
-        link: '/quick-start',
+        text: 'Главное',
+        items: [
+
+          {
+            text: 'С чего начать?',
+            link: '/quick-start',
+          },
+          {
+            text: 'Настройка сети WiFi',
+            link: '/wifi/'
+          },
+          {
+            text: 'Удаленный доступ',
+            link: '/remote/'
+          },
+        ]
+      },
+      { text: 'Интеграции',
         items: [
           {
-            text: 'Руководство',
-            collapsed: true,
-            items: [
-              // Ссылка на страницу `/ru/guide/yaha.md`
-              { text: 'Введение',
-                link: '/guide/intro/'
-              },
-              { text: 'Настройка сети WiFi',
-                link: '/guide/wifi/'
-              },
-              { text: 'Интеграции',
-                items: [
-                  {
-                    text: 'Умный дом Яндекса',
-                    link: '/guide/integrations/yaha'
-                  }
-                ]
-              }
-            ]
+            text: 'Умный дом Яндекса',
+            link: '/yaha'
           }
         ]
-      }
+      },
     ],
 
     socialLinks: [

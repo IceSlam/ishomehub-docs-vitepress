@@ -12,7 +12,7 @@ hero:
       link: /quick-start
     - theme: alt
       text: Руководство
-      link: /guide
+      link: /intro
 
 features:
   - title: Работа без интернета
