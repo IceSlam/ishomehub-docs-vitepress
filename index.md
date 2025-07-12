@@ -10,9 +10,6 @@ hero:
     - theme: brand
       text: Первое знакомство
       link: /quick-start
-    - theme: alt
-      text: Руководство
-      link: /intro
 
 features:
   - title: Работа без интернета
